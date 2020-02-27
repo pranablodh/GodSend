@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">GodSend</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">LOG IN</string>
+    <string name="not_a_member_join_now">Not a member? Join Now</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="e_mail_id">E-Mail ID</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="account_created_on">Account Created On</string>
+    <string name="address">Address</string>
+    <string name="appointment">Appointment</string>
+    <string name="book_an_appointment_now">Book An Appointment Now</string>
+    <string name="search">Search</string>
+    <string name="nearby_hospital">Nearby\nHospital</string>
+    <string name="doctors">Doctors</string>
+    <string name="check">Check</string>
+    <string name="my_appointment">My\nAppointment</string>
+    <string name="medical_records">Medical Records</string>
+    <string name="check_saved_ones_or_upload_new">Check Saved Ones or Upload New</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="active_appointment">Active Appointments</string>
+    <string name="past_appointment">Past Appointments</string>
+    <string name="cancelled_appointments">Cancelled Appointments</string>
+    <string name="i_have_insurance">I Have Insurance</string>
+    <string name="i_don_t_have_insurance">I Don\'t Have Insurance</string>
+    <string name="browse_doctor">Browse Doctors</string>
+    <string name="favourite_doctor">Favourite Doctors</string>
+    <string name="regular_appointment">Regular Appointment</string>
+    <string name="emergency_appointment">Emergency Appointment</string>
+    <string name="out_patient_department_opd">Out Patient Department (OPD)</string>
+    <string name="in_patient_department_ipd">In Patient Department (IPD)</string>
+    <string name="all_hospitals">All Hospitals</string>
+    <string name="nearby_hospitals">Nearby Hospitals</string>
+    <string name="attached_file_link">Attached File Link</string>
+    <string name="title_activity_medical_records">Medical Records</string>
+    <string name="my_records">My Records</string>
+    <string name="add_new_records">Add New Record</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_provide_the_following_details">Please Provide The Following Details</string>
+    <string name="record_name">Record Name</string>
+    <string name="record_type">Record Type</string>
+    <string name="some_description">Some Description....</string>
+    <string name="upload">Upload</string>
+    <string name="browse_file">Browse File.....</string>
+    <string name="book">Book</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="need_an_ambulance">Need An Ambulance?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="some_description_of_the_department">Some Description of the Department</string>
+    <string name="medical_help_24x7_nright_at_your_fingertip">Medical Help, 24X7\nRight At Your Fingertip</string>
+    <string name="an_app_that_strives_to_bring_healthcare_right_at_your_fingertip">An App That Strives to Bring\nHealthcare Right at Your Fingertip.</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="finish_button">Finish</string>
+    <string name="valid_user_id">Enter a Valid User ID</string>
+    <string name="no_empty_password">Password Field Can\'t Be Empty</string>
+    <string name="enter_valid_name">Please Enter A Valid Name</string>
+    <string name="valid_mobile_number">Enter A Valid Ten Digit Mobile Number</string>
+    <string name="valid_email">Enter A Valid Email ID</string>
+    <string name="enter_date_of_birth">Please Enter Your Date of Birth</string>
+    <string name="enter_a_password">Please Enter Password</string>
+    <string name="password_mismatched">Password Mismatched</string>
+    <string name="verify_your_mobile_number">Verify Your Mobile Number</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="please_wait">Please Wait......</string>
+    <string name="cancel_heading">Cancel Appointment</string>
+    <string name="cancle_alert">Are You Want to Sure Cancel This Appointment?</string>
+
+    <string-array name="RecordType">
+        <item>Prescription</item>
+        <item>X-Ray</item>
+        <item>Pressure Report</item>
+        <item>ECG</item>
+        <item>Doctor\'s Note</item>
+        <item>Nurse\'s Note</item>
+        <item>Ancillary/Miscellaneous</item>
+        <item>Pathology Report</item>
+        <item>Plan</item>
+        <item>Consultation Report</item>
+    </string-array>
+
+    <string-array name="departmentType">
+        <item>Emergency</item>
+        <item>Intensive Care</item>
+        <item>Coronary Care</item>
+        <item>Neonatal Intensive Care</item>
+        <item>Burn Ward</item>
+        <item>Pediatric Care</item>
+        <item>Psychiatric Unit</item>
+    </string-array>
+</resources>

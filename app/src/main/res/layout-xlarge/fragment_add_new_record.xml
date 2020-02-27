@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.addNewRecord">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="35dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/medical_record"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/please_provide_the_following_details"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/recordName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:hint="@string/record_name"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:maxLines="1"
+                android:background="@drawable/record_name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/record_type"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"/>
+
+            <Spinner
+                android:id="@+id/recordType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/RecordType"/>
+
+            <EditText
+                android:id="@+id/descriptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:hint="@string/some_description"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="0dp"
+                android:gravity="start"
+                android:background="@drawable/some_descriptions"/>
+
+            <Button
+                android:id="@+id/browseFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/browse_file"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:textAllCaps="false"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/browse_file"/>
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/booking_button"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/emergencyAppointmentCard"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/hospitalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fortis Hospital"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/hospitalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E.M. Bypass, Kolkata"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:textSize="13sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/hospitalDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We are Specialist in Trauma Management"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="15dp"
+                android:maxLength="100"
+                android:textSize="13sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
